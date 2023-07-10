@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(fonts/Dosis-VariableFont_wght.ttf) format ('woff')}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
