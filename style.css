@@ -43,6 +43,18 @@ nav ul li a:hover{
     color: orangered;
     text-shadow:.3px .3px orangered;}
 
+.theme-container {
+    transition: 0.5s;}
+      
+.theme-container:hover {
+    opacity: 0.5;
+    cursor: pointer;}
+       
+.change {
+    animation-name: change;
+    animation-duration: 1s;
+    animation-direction: alternate;}
+
 .sign{
     display: flex;
     align-items: center;
@@ -125,11 +137,12 @@ nav ul li a:hover{
 .banner .banner-right h2 {
     font-style: bold;
     color: #212121;
-    background-color: orange;}
+    background-color: white;}
 
 .banner .banner-right p {
     color: #212121;
-    margin-top: 10px;}
+    margin-top: 10px;
+    background-color: white;}
 
 .banner .banner-right span {
     color: orangered;
@@ -222,6 +235,21 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;}
 
+.contact .contact-mid{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+}
+
+.contact .contact-mid a{
+    color: white;}
+
+.contact .contact-mid .instagram{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .contact .contact-right .maps {
     display: none;}
 
@@ -229,6 +257,7 @@ nav ul li a:hover{
     margin-bottom: 20px;}
 
 .contact .alamat{
+    margin-bottom: 20px;
     color: white;
     text-align: left;}
 
@@ -267,6 +296,12 @@ footer ul li a{
 footer ul li a:hover{
     color: orangered;
     text-shadow:.2px .2px orangered;}
+
+@keyframes change {
+    0% {
+        transform: scale(1);}
+    100% {
+          transform: scale(1.4);}}
 
 @keyframes fade {
     from {opacity: .4} 
@@ -309,7 +344,7 @@ footer ul li a:hover{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        gap: 50px}
+        gap: 15px}
       
     .contact .alamat{
         max-width: 300px;
@@ -326,7 +361,10 @@ footer ul li a:hover{
     header nav ul {
         display: flex;
         align-items: center;
-        gap: 10px;}}
+        gap: 10px;}
+
+    .contact{ 
+        gap: 50px}}
 
 @media only screen and (min-width: 1440px) {
     .banner .banner-main{
