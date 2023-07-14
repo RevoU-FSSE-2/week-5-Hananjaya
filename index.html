@@ -8,18 +8,21 @@
     <meta name="keywords" content="HTML, CSS, JavaScript"/>
     <meta name="author" content="Ahlan Hanan Wijaya"/>
     <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" href="./assets/images/mcpicon.png"/>
 </head>
 <body>
     <header class="container">
         <div class="logo">
-            <img src="./assets/images/logo1.png" alt="logo mcp">
+            <img src="./assets/images/logomcp0.png" alt="logo mcp">
         </div>
 
         <nav>
             <ul>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Jasa</a></li>
                 <li><a href="#">Tentang</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li><a href="#">Pemesanan</a></li>
+                <li><a href="#">Kontak</a></li>
             </ul>
         </nav>
 
@@ -37,9 +40,11 @@
     <div class="nav-mobile d-none">
         <nav>
             <ul>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Jasa</a></li>
                 <li><a href="#">Tentang</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Portofolio</a></li>
+                <li><a href="#">Pemesanan</a></li>
+                <li><a href="#">Kontak</a></li>
             </ul>
         </nav>
     </div>
@@ -47,23 +52,44 @@
     <main class="container">
         <div class="hero-image">
             <section class="hero-text">
-                <h1>Moringa Creative</h1>
-                <p><span>Animasi, Desain Grafis, Desain Web, Multimedia</span></p>
+                <h1>MCP</h1>
+                <p><span>"Your Creative Partner". </span></p>
             </section>
         </div>
 
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 2</div>
+                <img src="/assets/images/dm4.jpg" style="width:100%">
+                <div class="text">Desktop Multimedia</div>
+            </div>
+            
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 2</div>
+                <img src="/assets/images/ma0.jpg" style="width:100%">
+                <div class="text">Mobile App</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+            
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+        </div>
         <div class="banner">
             <div class="banner-main">
                 <div class="banner-right">
-                    <h2>Halo.</h2>
-                    <p>Kami adalah <span>MCP</span>, penyedia jasa multimedia yang bertempat di Yogyakarta, Indonesia. Kami fokus pada pengembangan animasi, desain grafis, desain web, multimedia. Selain itu kami juga membuat konten video di youtube yang membahas tips seputar multimedia.</p>
+                    <h2>Halo!</h2>
+                    <p>Kami adalah <span>MCP</span>, sebuah lembaga yang bergerak di bidang jasa desain, animasi, video editing, games, augmented reality, arsitektural 3D dan multimedia interaktif berbasis mobile maupun desktop.</p>
                 </div>
                 <div class="banner-left">
-                    <img src="./assets/images/abutimg.png" alt="about image"> 
+                    <img src="./assets/images/aboutimg.png" alt="about image"> 
                 </div>
             </div>
         </div>
-
 
     </main>
 
@@ -84,7 +110,7 @@
         </div>
         <div>
             <ul>
-                <li><a href="#">Designed by Hananjaya</a></li>
+                <li>Designed by <a href="#">MCP</a></li>
             </ul>
         </div>
     </footer>
