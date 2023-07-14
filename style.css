@@ -90,6 +90,7 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-top: 50px;
     margin-bottom: 10px;}
 
 .hero-text {
@@ -101,18 +102,20 @@ nav ul li a:hover{
     color: white;}
 
 .hero-text h1{
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
     color: orange;}
 
 .hero-text span{
-    font-style: italic;}
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 800;}
 
 .banner{
-    padding-top: 30px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 20px;}
+    padding-bottom: 50px;}
 
 .banner .banner-main{
     display: flex;
@@ -121,9 +124,11 @@ nav ul li a:hover{
 
 .banner .banner-right h2 {
     font-style: bold;
+    color: #212121;
     background-color: orange;}
 
 .banner .banner-right p {
+    color: #212121;
     margin-top: 10px;}
 
 .banner .banner-right span {
@@ -139,7 +144,6 @@ nav ul li a:hover{
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;}
-/*=========================================================================================================================================================*/
 
 .slideshow-container img {
     height: auto;
@@ -204,17 +208,34 @@ nav ul li a:hover{
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;}
+    
+.contact{
+    display: flex;
+    flex-direction: column;
+    background: #717171;
+    padding: 40px;
+    text-align: center;
+    width: 94%;
+    margin: auto;}
+  
+.contact .contact-left {
+    display: flex;
+    flex-direction: column;}
 
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}}
+.contact .contact-right .maps {
+    display: none;}
 
-/*=========================================================================================================================================================*/
+.contact .contactmcp{
+    margin-bottom: 20px;}
+
+.contact .alamat{
+    color: white;
+    text-align: left;}
 
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 55px;
+    bottom: 65px;
     right: 3%;
     z-index: 99;
     font-size: 18px;
@@ -247,6 +268,10 @@ footer ul li a:hover{
     color: orangered;
     text-shadow:.2px .2px orangered;}
 
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}}
+
 @media only screen and (min-width: 768px) {
     .sign a {
         display: block;}
@@ -255,6 +280,7 @@ footer ul li a:hover{
         display: flex;
         flex-direction: row-reverse;
         gap: 50px;}
+
     .banner .banner-left img {
         width: 200px;
         align-items: center;
@@ -262,17 +288,36 @@ footer ul li a:hover{
 
     .banner .banner-right {
         text-align: left;
+        line-height: 1.5;
         margin: auto;
         max-width: 500px;}
 
     .banner .banner-right h2 {
         font-size: 34px;}
+
     .banner .banner-right p {
         margin-top: 10px;
         font-size: 16px;}
 
     #hamburger{
-        display: none;}}
+        display: none;}
+    
+    header .search-box {
+        display: flex;}
+    
+    .contact{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px}
+      
+    .contact .alamat{
+        max-width: 300px;
+        line-height: 1.5;
+        text-align: left;}
+    
+    .contact .contact-right .maps {
+        display: flex;}}
 
 @media only screen and (min-width: 1024px) {
     header nav {
@@ -282,3 +327,12 @@ footer ul li a:hover{
         display: flex;
         align-items: center;
         gap: 10px;}}
+
+@media only screen and (min-width: 1440px) {
+    .banner .banner-main{
+        gap: 100px;}
+
+    .contact{ 
+        gap: 100px}
+
+    }
