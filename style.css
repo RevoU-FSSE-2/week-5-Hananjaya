@@ -19,16 +19,15 @@ body, html {
 
 header{
     background-color: #717171;
-    overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-    position: sticky;
-    overflow: hidden;
+    position: fixed;
     background-color: white;
     z-index: 1;
-    top: 0;}
+    top: 0;
+    right: 3%;}
 
 header nav {
     display: none;}
@@ -212,7 +211,21 @@ nav ul li a:hover{
 
 /*=========================================================================================================================================================*/
 
-
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 55px;
+    right: 3%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+  }
 
 footer{
     display: flex;
@@ -222,7 +235,7 @@ footer{
     font-size: 13px;
     align-items: center;
     padding-bottom: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
     overflow: hidden;
     background-color: white;}
 
