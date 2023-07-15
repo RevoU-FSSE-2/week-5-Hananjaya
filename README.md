@@ -37,7 +37,7 @@ This website mainly uses three different ingredients, they are:
 
 To run this website, we can use both offline and online methods.
 
-To run this website in offline mode, you can manually open the html file and open it in your favorite browser.
+To run this website in offline mode, you can manually open the HTML file and open it in your favorite browser.
 
 To run this website in online mode, you can follow the instructions:
 - Go to [GitHub](https://github.com/RevoU-FSSE-2/week-5-Hananjaya)  
@@ -62,7 +62,7 @@ In the development phase, we would like to highlight some features, such as:
 
 **IMPORTANT**
 
-In this website, we use the **previous custom domain** we bought from [Niagahoster](https://www.niagahoster.co.id/).
+On this website, we use the **previous custom domain** we bought from [Niagahoster](https://www.niagahoster.co.id/).
 
 If you are first time to deploy, proceed to the next section of the deployment.
 
@@ -70,11 +70,11 @@ If you are first time to deploy, proceed to the next section of the deployment.
 
 This method links our **new** repository [https://github.com/RevoU-FSSE-2/week-5-Hananjaya](https://github.com/RevoU-FSSE-2/week-5-Hananjaya) / [https://visitmcp.netlify.app/](https://visitmcp.netlify.app/) to the domain we use in the previous project site. 
 
-Regarding this method, we have to admit that we run a website entitled **"MCP"** in a domain named **"project-r.site"**. **A bit pathetic** but it doesn't really matter for now.
+Regarding this method, we have to admit that we run a website entitled **"MCP"** in a domain named **"project-r.site"**. **A bit pathetic** but it doesn't matter for now.
 
-The method were:
+The method was:
 
-- Go to the **previous** [netlify](https://www.netlify.com/) deployment (with custom domain we bought)
+- Go to the **previous** [netlify](https://www.netlify.com/) deployment (with the custom domain we bought)
 - Remove the domain from the list.
 
 ![](mdimages/stepa.png)
@@ -84,18 +84,18 @@ The method were:
   
 ![](mdimages/stepb.png)
 
-- Go to [cloudflare](https://www.cloudflare.com)
+- Go to [Cloudflare](https://www.cloudflare.com)
 - Edit the DNS, so that the existing domain will redirect to the new content.
 
 ![](mdimages/stepc.png)
 
-- Done!. Now we are running the [content](https://project-r.site/) with different domain name.
+- Done!. Now we are running the [content](https://project-r.site/) with different domain names.
 
 ![](mdimages/stepd.png)
 
 
-## First time to deploy
-Before we proceed to the deployment, we need to create custom domain for the website. In this case, we use Niagahoster and Cloudflare. Here is the brief description of the process:
+## First-time deployment
+Before we proceed to the deployment, we need to create a custom domain for the website. In this case, we use Niagahoster and Cloudflare. Here is a brief description of the process:
 #### Netlify
 
 1. Go to [Netlify](https://www.netlify.com/)
@@ -104,7 +104,7 @@ Before we proceed to the deployment, we need to create custom domain for the web
    
     ![](mdimages/netlify0.JPG)
 
-4. To add new sites, choose **import an existing project**
+4. To add new sites, choose the **import an existing project**
    
     ![](mdimages/netlify1.JPG)
 
@@ -149,7 +149,7 @@ Before we proceed to the deployment, we need to create custom domain for the web
    
     ![](mdimages/cloud5.JPG)
 
-7.  In DNS Record, add record by choosing the type, Name, and Target.
+7.  In DNS Record, add a record by choosing the type, Name, and Target.
    
     ![](mdimages/cloud6.JPG)
 
@@ -157,7 +157,7 @@ Before we proceed to the deployment, we need to create custom domain for the web
    
     ![](mdimages/cloud7.JPG)
 
-9.  Go to Netlify, choose **Add a Domain** in Domain management.
+9.  Go to Netlify, and choose **Add a Domain** in Domain Management.
     
     ![](mdimages/cloud8.JPG)
 
