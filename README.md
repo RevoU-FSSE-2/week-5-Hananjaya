@@ -89,10 +89,11 @@ The method was:
 
 ![](mdimages/stepc.png)
 
-- Done!. Now we are running the [content](https://project-r.site/) with different domain names.
+- Done!. Now we are running the [content](https://project-r.site/) with different domain names. 
 
 ![](mdimages/stepd.png)
 
+- _salam luar biasa_
 
 ## First-time deployment
 Before we proceed to the deployment, we need to create a custom domain for the website. In this case, we use Niagahoster and Cloudflare. Here is a brief description of the process:
